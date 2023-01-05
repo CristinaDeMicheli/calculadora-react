@@ -1,0 +1,65 @@
+.contenedor{
+    width: 40rem;
+    height: 40rem;
+    background-color: black;
+    border: 10px rgb(32, 29, 29) solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.botonera{
+    width: 38rem;
+    height: 30rem;
+    background-color: rgb(34, 30, 30);
+    border: 10px rgb(33, 31, 31) solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pantalla{
+    width: 38rem;
+    height: 5rem;
+    background-color: rgb(69, 64, 64);
+    border: 10px rgb(33, 31, 31) solid;
+    border-radius: 10px;
+    font-family: Verdana;
+    font-size: 3rem;
+    color: beige;
+    text-align: right;
+
+}
+.boton
+{
+	width: 4rem;
+	height: 3rem;
+	margin: 1rem;	
+	background-color : grey;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	justify-content: center;
+	text-align: center;
+	 box-shadow: -3px 0px rgba(0,0,0,0.5);
+}
+.boton:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.boton:nth-child(30){
+    margin-top: 27rem;
+    position: absolute;
+    background-color: red;
+    height: 3rem;
+    width: 11rem;
+    margin-left: 25rem;
+}
